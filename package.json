@@ -1,0 +1,30 @@
+{
+  "name": "eth-monitor-backend",
+  "version": "1.0.0",
+  "description": "This backend service provides an communication between the eth-monitor frontend application and the 1inch aggregation API. It handles secure API key management and simplifies swap transactions on the Ethereum blockchain.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dobrygeorgiev/eth-monitor-backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dobrygeorgiev/eth-monitor-backend/issues"
+  },
+  "homepage": "https://github.com/dobrygeorgiev/eth-monitor-backend",
+  "dependencies": {
+    "axios": "^1.11.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
